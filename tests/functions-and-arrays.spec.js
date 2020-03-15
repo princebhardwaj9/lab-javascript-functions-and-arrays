@@ -14,7 +14,7 @@ function shuffle(currentArray) {
 
 describe('Find the greatest number', () => {
   it('should create a function named greatestOfTwoNumbers', () => {
-    expect(typeof maxOfTwoNumbers).toBe('function');
+    expect(typeof greaterOfTwoNumbers).toBe('function');
   });
 
   it('should return greater of two arguments - if the first argument greater', () => {
@@ -266,7 +266,7 @@ describe('Find elements', () => {
   // });
 
   it('should return true if the word we are looking for is in the array', () => {
-    expect(searchElement(['door','window','ceiling','roof','plinth','tiles', 'ceiling','flooring'], 'tiles')).toBe(
+    expect(searchElement(['door', 'window', 'ceiling', 'roof', 'plinth', 'tiles', 'ceiling', 'flooring'], 'tiles')).toBe(
       true
     );
   });
